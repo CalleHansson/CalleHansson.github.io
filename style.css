@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    #addadvertisement div {
+        display: none;
+    }
+
+    #categories {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #categoreis div {
+        flex: 1 1 auto;
+    }
+}
+
+#header {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 980px;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+#colorbox {
+    height: 4px;
+    width: 100%;
+    background-size: auto;
+    background-image: url(Image/BlocketBar.svg);
+}
+
+nav {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 980px;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+#ul {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+#logo a {
+    width: 120px;
+    height: 26px;
+    margin-right: 30px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: block;
+    background: url(Image/Blocketlogga.svg);
+}
+
+#categories div p {
+    display: flex;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #434140;
+    font-family: sans-serif;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    padding-right: 209.68px;
+}
+
+#addadvertisement div a {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border: none;
+    color: #ffff;
+    background-color: #0071EB;
+    height: 32px;
+    padding: 0px 16px;
+    margin-right: 8px;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+#addadvertisement div a span {
+    width: auto;
+    -webkit-box-flex: 1;
+    display: flex;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+#addadvertisement div a span svg {
+    fill: none;
+    color: #ffffff;
+    width: 16px;
+    height: 16px;
+}
+
+#addadvertisement div a span div {
+    padding-left: 8px;
+    color: #ffffff;
+}
+
+#advertisement div {
+    position: relative;
+}
+
+#advertisement div a {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(98, 96, 95);
+    padding: 0px 8px;
+}
+
+#advertisement div a div svg {
+    fill: none;
+    width: 20px;
+    height: 20px;
+    color: rgb(98, 96, 95);
+}
+
+#advertisement div a #lable {
+    max-width: 150px;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    color: rgb(98, 96, 95);
+}
+
+
+
+#messages div {
+    position: relative;
+}
+
+#messages div a {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(98, 96, 95);
+    padding: 0px 8px;
+}
+
+#messages div a div svg {
+    fill: none;
+    width: 20px;
+    height: 20px;
+    color: rgb(98, 96, 95);
+}
+
+#messages div a #lable {
+    max-width: 150px;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    color: rgb(98, 96, 95);
+}
+
+
+
+
+
+#watched div {
+    position: relative;
+}
+
+#watched div a {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(98, 96, 95);
+    padding: 0px 8px;
+}
+
+#watched div a div svg {
+    fill: none;
+    width: 20px;
+    height: 20px;
+    color: rgb(98, 96, 95);
+}
+
+#watched div a #lable {
+    max-width: 150px;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    color: rgb(98, 96, 95);
+}
+
+
+
+#profile div {
+    position: relative;
+}
+
+#profile div a {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(98, 96, 95);
+    padding: 0px 8px;
+}
+
+#profile div a div svg {
+    fill: none;
+    width: 20px;
+    height: 20px;
+    color: rgb(98, 96, 95);
+}
+
+#profile div a #lable {
+    max-width: 150px;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    color: rgb(98, 96, 95);
+}
